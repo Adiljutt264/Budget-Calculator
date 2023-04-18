@@ -1,0 +1,345 @@
+.body{
+padding: 0;
+margin: 0;
+}
+.main{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url('background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 43%;
+    color: black;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+}
+.text{
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 2.3em;
+    font-weight: 300;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;    
+    /*padding: 5px 8px 5px 8px;*/
+    margin-bottom: 10px;
+}
+.inone{
+    background-color: green;
+    text-align: start;
+        border: 1px solid beige;
+        border-radius: 10px;
+}
+.intwo{
+    background-color: red;
+    flex-grow: 1;
+        border: 1px solid beige;
+        border-radius: 10px;
+}
+.container{
+    padding-bottom: 10%;
+    display: flex;
+}
+.appear{
+    flex-basis: 10px;
+    color: white;
+    margin-right: 2px;
+    padding: 0px 10px 2px 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.479);
+    text-align: center;
+}
+select:hover {
+    outline-color: green;
+}
+.grow{
+    text-align: right;
+    color: white;
+    flex-grow: 3;
+    padding: 0px 10px 0px 10px;
+
+}
+.jug{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.toggplus{
+    display: inline;
+    cursor: pointer;
+    padding-right: 4px;
+    
+}
+.toggicon{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center !important;
+    align-content: center;
+    cursor: pointer;
+    font-size: 25px  !important;
+    padding-top: 20%;
+}
+.select{
+    padding: 10px;
+    border: 1px solid rgba(85, 85, 85, 0.356);
+    border-radius: 3px;
+
+}
+.text-area-space{
+    padding: 10px;
+    border: 1px solid rgba(85, 85, 85, 0.356);
+    border-radius: 3px;
+    
+}
+.text-area-space:hover{
+    outline-color: green;
+}
+.fa-circle-check{
+color: #4b7e1b;
+font-size: 20px;
+}
+.text-area-space1{
+    width: 6.5%;
+    padding: 10px;
+    border: 1px solid rgba(85, 85, 85, 0.356);
+    border-radius: 3px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.text-area-space1:hover{
+    outline-color: green;
+}
+.one{
+    outline-color: red !important;
+}
+.one:hover{
+    outline-color: red !important;
+}
+.oni{
+    color: red !important;
+}
+.text-area3{
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+outline: none;
+}
+.gr{
+    flex-grow: 4;
+    background-color: #4b7e1b00;
+    color: #4b7e1b00;
+}
+.togg{
+    padding: 10px;
+    margin-right: 1%;
+    flex-grow: .01;
+}
+.left
+{
+    float: left;
+    height: 50%;
+    width: 50%;
+    border-right:  1px solid rgba(185, 185, 185, 0.438);
+    
+}
+.right{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+.ein
+{
+    display: block;
+    text-align: center;
+    color: red;
+}
+.in
+{
+    display: block;
+    text-align: center;
+    color: green;
+}
+.item-clear-fix
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+    margin-left: 10%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom:  3px double rgba(185, 185, 185, 0.486);
+}
+.toggicon2{
+    height: 35px;
+    width: 35px;
+    text-align: right;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.item--value{
+    padding: 2%;
+}
+.item--percentage{
+    padding: 2%;
+}
+.item--delete-button{
+    padding: 1%;
+    outline: none !important;
+    border: none;
+    margin: 0;
+    background-color: #f5f5dc00;
+
+}
+.item--delete{
+    padding: 0;
+    margin: 0;
+}
+.item-description{
+    margin: 0;
+    padding: 0;
+}
+.item--delete-button:hover{
+    border: none;
+    color: #00000000;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none !important;
+}
+.fa-regular{
+    visibility: visible;
+    display: block;
+    outline: none;
+    color: red;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #4b7e1b00;
+}
+.fa-regular:hover{
+    display: block;
+    outline: none;
+    color: red;
+    border: none;
+    font-size: 19px;
+    visibility: visible;
+}
+.item-description{
+    padding-right: 25%;
+}
+
+@media only screen and (max-width: 972px) {
+    /* For tablet: */
+    .inline{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 50%;    
+        /*padding: 5px 8px 5px 8px;*/
+        margin-bottom: 10px;
+    }
+    .in {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+    }
+    .ein {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+     }
+     p {
+        font-size: 14px;
+      }
+      div{
+        font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 394px) {
+    /* For tablet: */
+    .inline{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 70%;    
+        /*padding: 5px 8px 5px 8px;*/
+        margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 470px) {
+    /* For tablet: */
+    .gr{
+        flex-grow: 4;
+        background-color: #4b7e1b00;
+        color: #4b7e1b00;
+        display: none;
+    }
+    .section{
+        background-color: rgb(231, 231, 231);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+    .item-clear-fix
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+    margin-left: 1%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: 1%;
+    border-bottom: 1px solid rgb(163, 163, 163);  
+    padding-left: 1%;
+    padding-right: 1%;
+}
+  }
+  @media only screen and (max-width: 370px) {
+    .text-area-space1{
+        width: 20px;
+        padding: 10px;
+        border: 1px solid rgba(85, 85, 85, 0.356);
+        border-radius: 3px;
+        margin-right: 1%;
+        margin-left: 1%;
+    }   
+    .text-area-space {
+        padding: 10px;
+        border: 1px solid rgba(85, 85, 85, 0.356);
+        border-radius: 3px;
+        width: 100%;
+    }
+}

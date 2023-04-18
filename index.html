@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e45c64cac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+<div class="content">
+<p class="text data">Available Budget in September 2016</p>
+<h2 class="text budget">23230</h2>
+<div class="inline inone">
+    <p class="text">Income</p>
+    <div class="jug">
+    <p class="grow incomelabel" style="padding-right: 19%;">23220</p>
+    </div>
+</div>
+<div class="inline intwo">
+    <p class="text">Expenses</p>
+    <div class="jug">
+    <p class="grow expenselabel">220</p>
+    <p class="appear">-</p>
+    </div>
+</div>
+</div>
+    </div>
+    <div class="section">
+        <div class="gr"></div>
+<div class="togg">
+    <select name="pets" class="select">
+        <option value="inc" selected>+</option>
+        <option value="exp">-</option>
+    </select>
+    <!-- <a style="text-decoration:none" href=""><p class="toggplus">+</p></a>
+<button class="exp" href=""><img src="84263.png" alt="" class="toggicon exp"></button>-->
+</div>
+    <Input class="text-area-space" placeholder="Add description"></Input>
+    <Input class="text-area-space1" type="number"></Input>
+<div class="text-area3">
+    <button style="border: none; align-items: center !important; border: none; outline: none; background-color: rgba(240, 248, 255, 0);"><i style="color: green;" class="fa-regular fa-circle-check toggicon"></i></button>
+</div>
+<div class="gr"></div>
+    </div>
+    <div class="container">
+    <div class="left">
+        <h2 class="in">Income</h2>
+        <!---- '<div class="item-clear-fix"id = "income-%id%"><div class="item-description">%des%</div><div class="item--value">%val%</div><div class="item--percentage">21%</div><div class="item--delete"><button class="item--delete-button"><i class="fa-regular fa-circle-xmark"></i></button></div>'
+        -->
+        </div>
+    
+    <div class="right">
+        <h2 class="ein">Expense</h2>
+        <!--
+        '<div class="item-clear-fix"id = "expense-%id%"><div class="item-description">%des%</div><div class="item--value">%value%</div><div class="item--percentage">21%</div><div class="item--delete"><button class="item--delete-button"><i class="fa-regular fa-circle-xmark"></i></button></div>
+            -->
+        </div>
+    </div>
+</body>
+<script src="budgety.js"></script>
+</html>
